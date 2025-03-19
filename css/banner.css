@@ -4,6 +4,8 @@
     width: 100%;
     height: 70vh;
     overflow: hidden;
+
+    margin-top: 70px;
 }
 
 /* Container do Carrossel */
@@ -28,7 +30,7 @@
 
 .one {
     background-image: url("../img/banner-sf-2.png");
-    background-position: center;
+    background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
 }
