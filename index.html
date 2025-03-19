@@ -1,160 +1,190 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Consultoria Ao Cliente</title>
-    <link rel="stylesheet" href="css/menu.css">
+    <title>Central de Atendimento</title>
+
+    <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/banner.css">
     <link rel="stylesheet" href="css/cards.css">
-    <link rel="stylesheet" href="css/conteudos.css">
-    <link rel="stylesheet" href="css/global.css">
-    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="css/sobre.css">
+    <link rel="stylesheet" href="css/conteudo.css">
+    <link rel="stylesheet" href="css/perguntas.css">
+    <script src="https://unpkg.com/@phosphor-icons/web@2.1.1"></script>
 </head>
 
 <body>
-    <header>
-        <div class="menu">
-            <a href="https://wa.link/sthrt4" class="logo">Atendimento</a>
-            <i class="ph ph-list menu-icon" onclick="toggleMenu()"></i>
-            <ul class="categoria">
-                <li><a href="https://wa.link/n1w1na">Sobre</a></li>
-                <li><a href="https://wa.link/n1w1na"Serviços</a></li>
-                <li><a href="https://wa.link/n1w1na"Serviços</a></li>
-                <li><a href="https://wa.link/n1w1na">Quem Somos</a></li>
-            </ul>
-            <a href="https://wa.link/n1w1na" class="log">Acessar</a>
+    <header class="home">
+        <div class="container">
+            <a href="https://wa.link/wne214" class="logo">Àrea do cliente</a>
+
+            <!-- Ícone do menu mobile -->
+            <div class="menu-icon" id="menu-toggle">
+                <i class="ph ph-list"></i>
+            </div>
+
+            <nav>
+                <ul class="menu" id="menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="https://wa.link/nkqu2x">Contato</a></li>
+                </ul>
+                <a href="https://wa.link/wne214" class="btn-fale">Fale Conosco</a>
+            </nav>
         </div>
     </header>
 
     <section class="banner">
-        <div class="desc-banner">
-            <h3>2 Via De Boleto</h3>
-            <h1>Emita sua segunda via <br> De um jeito fácil</h1>
-            <br>
-            <a href="https://wa.link/n1w1na" class="button-banner">
-                Solicitar Boleto.
+        <div class="banner-carrousel">
+            <!-- Banner 1 -->
+            <div class="banner-item active one">
+                <div class="desc-banner one-1">
+                    <h2>Conte com nosso atendimento 24 horas, especializado para solucionar seu problema!</h2>
+                    <p>Segurança e praticidade para emissão de 2ª via de boleto e antecipação.</p>
+                    <div class="button-banner one-1-b">
+                        <a href="https://wa.link/wne214">
+                            Clique aqui e comece sua conversa
+                            <i class="ph ph-arrow-line-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Banner 2 -->
+            <div class="banner-item seg">
+                <div class="desc-banner seg-2">
+                    <h2>2ª via de boleto <br> emita sua segunda via de um jeito fácil</h2>
+                    <p>Precisa da segunda via do seu boleto? <br>Agora ficou simples e rápido! Emita sua 2ª via.</p>
+                    <div class="button-banner seg-2-b">
+                        <a href="https://wa.link/wne214">
+                            Solicitar meu atendimento
+                            <i class="ph ph-arrow-line-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controles do Carrossel -->
+        <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button>
+    </section>
+
+    <section class="cards" id="home">
+        <div class="cards-banner">
+            <a href="https://wa.link/wne214" class="bloco">
+                2ª via de boleto
+            </a>
+            <a href="https://wa.link/wne214" class="bloco">
+                liquidação antecipada
+            </a>
+            <a href="https://wa.link/wne214" class="bloco">
+                atualizar boleto vencido
+            </a>
+            <a href="https://wa.link/wne214" class="bloco">
+                antecipar parcelas
+            </a>
+            <a href="https://wa.link/wne214" class="bloco">
+                atendimento online
             </a>
         </div>
     </section>
 
-    <section class="cards">
-        <div class="bloco">
-            <i class="ph ph-barcode"></i>
-            <h3>Segunda Via De Boleto</h3>
-            <br>
-            <a href="https://wa.link/n1w1na" class="button-bloco">
-                Acessar
-            </a>
+    <section class="sobre">
+        <div class="sobre-nos">
+            <h3>ATENÇÃO</h3>
+            <h1>Pague seu débito ao credor e não ao fraudador. </h1>
+            <p>Apresentamos algumas dicas para que você não caia em golpes de fraude com boletos falsos. Ao suspeitar ou
+                identificar de um e-mail, uma mensagem ou uma página falsa em nome da SF, não clique em links nem abra
+                ou baixe arquivos, e nos avise enviando uma mensagem para:</p>
+
+            <div class="button-chamada">
+                <a href="https://wa.link/wne214">
+                    Inicar atendiemnto ->
+                </a>
+            </div>
         </div>
-        <div class="bloco">
-            <i class="ph ph-identification-card"></i>
-            <h3>Antecipação</h3>
-            <br>
-            <a href="https://wa.link/n1w1na" class="button-bloco">
-                Acessar
-            </a>
-        </div>
-        <div class="bloco">
-            <i class="ph ph-cardholder"></i>
-            <h3>Liquidação Antecipada</h3>
-            <br>
-            <a href="https://wa.link/n1w1na" class="button-bloco">
-                Acessar
-            </a>
-        </div>
+        <img src="img/pessoa-1.png" alt="">
     </section>
 
-    <section class="conteudo-1">
-        <div class="desc-conteudo-1">
-            <h2>Soluções na palma <br>
-                da sua mão</h2>
-            <p>Facilite suas cobranças</p>
-            <p>Tenha controle total das suas cobranças de boletos de forma rápida e eficiente.</p>
-            <p>Nós acreditamos que um bom atendimento consiste em oferecer processos simples e seguros, que tornem o dia
-                a dia do cliente mais fácil e que estejam acessíveis nos momentos e nos canais que o cliente preferir.
-            </p>
-            <br><br>
-            <a href="https://wa.link/n1w1na" class="button-conteudo-1">
-                Solicitar Boleto
-            </a>
-        </div>
-        <div class="img-conteudo-1">
-            <img src="img/bonecos.png" alt="">
-        </div>
+    <section class="maer">
+        <section class="conteudo-1 fade-in  ">
+            <div class="desc-conteudo-1">
+                <h2>Soluções na palma <br> da sua mão</h2>
+                <p>Facilite seu dia</p>
+                <p>Nós acreditamos que um bom atendimento consiste em oferecer processos simples e seguros, que tornem o
+                    dia
+                    a dia do cliente mais fácil e que estejam acessíveis nos momentos e nos canais que o cliente
+                    preferir.
+                </p>
+                <br><br>
+                <a href="https://wa.link/wne214" class="button-conteudo-1">
+                    Solicitar Boleto
+                </a>
+            </div>
+            <div class="img-conteudo-1">
+                <img src="img/bonecos.png" alt="">
+            </div>
+        </section>
     </section>
 
-    <section class="conteudo-2">
-        <div class="conteudo-2-desc">
-            <h2>Facilidades <br>
-                para seu dia a dia</h2>
-
-            <div class="cards-conteudo-2">
-                <div class="bloco-conteudo-2">
-                    <i class="ph ph-barcode"></i>
-                    <h3>Segunda via de Boleto</h3>
-                    <br>
-                    <a href="https://wa.link/n1w1na" class="saibamais">Saiba mais -></a>
-                </div>
-                <div class="bloco-conteudo-2">
-                    <i class="ph ph-currency-circle-dollar"></i>
-                    <h3>Antecipação de Parcelas</h3>
-                    <br>
-                    <a href="https://wa.link/sfylg0" class="saibamais">Saiba mais -></a>
-                </div>
-                <div class="bloco-conteudo-2">
-                    <i class="ph ph-calendar-check"></i>
-                    <h3>Quitar Contrato</h3>
-                    <br>
-                    <a href="https://wa.link/n1w1na" class="saibamais">Saiba mais -></a>
-                </div>
-                <div class="bloco-conteudo-2">
-                    <i class="ph ph-phone-incoming"></i>
-                    <h3>Atendimento On-line</h3>
-                    <br>
-                    <a href="https://wa.link/n1w1na" class="saibamais">Saiba mais -></a>
-                </div>
+    <section class="feedback-section">
+        <h2>O que nossos clientes dizem</h2>
+        <div class="feedback-container">
+            <div class="feedback-card">
+                <h3>Maria Silva</h3>
+                <p>"Ótimo atendimento! Resolvi meu problema em minutos. Super recomendo!"</p>
+            </div>
+            <div class="feedback-card">
+                <h3>João Santos</h3>
+                <p>"Muito eficiente e fácil de usar. Atendimento excelente!"</p>
+            </div>
+            <div class="feedback-card">
+                <h3>Ana Oliveira</h3>
+                <p>"Serviço rápido e confiável. Sempre utilizo e nunca tive problemas!"</p>
             </div>
         </div>
     </section>
 
-    <div class="img-main">
-        <img src="img/captura-de-tela-2024-01-05-091601-m6LraXPN35fgPK30-768x226.jpg" alt="">
-    </div>
-    <div class="container">
-        <div class="steps">
-            <h1>Como Financiar Seu Veículo</h1>
-            <p>São apenas 3 passos para financiar seu veículo</p>
-            <div class="step">
-                <h2>1. Selecione o modelo de veículo</h2>
-                <p>O primeiro passo é selecionar o modelo de veículo. Utilize nosso quiz para auxiliá-lo ou busque uma
-                    de nossas revendas parceiras para encontrar o carro ideal para você.</p>
-            </div>
-            <div class="step">
-                <h2>2. Simule as parcelas</h2>
-                <p>Utilize o nosso simulador no site, ou vá até uma de nossas revendas parceiras para simular as
-                    condições do seu financiamento e realizar a análise do seu crédito.</p>
-            </div>
-            <div class="step">
-                <h2>3. Compareça a uma revenda</h2>
-                <p>Receba o resultado da análise e vá até a revenda escolhida com sua simulação em mãos (impressa ou
-                    digital) para efetivar o seu contrato.</p>
+    <section class="faq">
+        <h2>Perguntas Frequentes</h2>
+        <div class="faq-item">
+            <button class="faq-question">O que é a 2ª via de boleto?</button>
+            <div class="faq-answer">
+                <p>A 2ª via de boleto é uma cópia do boleto original que pode ser gerada caso você tenha perdido ou não
+                    tenha recebido o boleto inicial.</p>
             </div>
         </div>
-        <div class="quiz">
-            <h2>Ainda não sabe qual veículo escolher?</h2>
-            <p>Nós te ajudamos a encontrar o veículo ideal. Responda algumas perguntas do nosso quiz</p>
-            <a href="https://wa.link/n1w1na">Responder →</a>
-        </div>
-    </div>
 
-    <footer>
-        <p>CNPJ: 13.630.787/0001-17 <br><br> <a href="politica.html">Politica de Privacidade</a></p>
-    </footer>
+        <div class="faq-item">
+            <button class="faq-question">Como posso antecipar parcelas?</button>
+            <div class="faq-answer">
+                <p>A antecipação de parcelas pode ser feita diretamente no nosso portal, basta selecionar a opção
+                    desejada e seguir as instruções para confirmar o pagamento antecipado.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">Quais são as formas de pagamento aceitas?</button>
+            <div class="faq-answer">
+                <p>Aceitamos pagamento via boleto, cartão de crédito e transferência bancária. Escolha a forma mais
+                    conveniente para você.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">Como posso entrar em contato com o suporte?</button>
+            <div class="faq-answer">
+                <p>Você pode entrar em contato conosco pelo chat online. Estamos disponíveis 24 horas para
+                    ajudar.</p>
+            </div>
+        </div>
+    </section>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <a href="https://wa.link/n1w1na" style="position:fixed;
+    <a href="https://wa.link/wne214" style="position:fixed;
     width:60px;
     height:60px;
     bottom:40px;
@@ -166,17 +196,10 @@
         <i style="margin-top:16px" class="fa fa-whatsapp"></i>
     </a>
 
-    <script>
-        function toggleMenu() {
-            const menu = document.querySelector('.categoria');
-            menu.classList.toggle('show');
-        }
-    </script>
-
-    <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KK8L7VXD"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+    <script src="js/menu.js"></script><!---->
+    <script src="js/banner.js"></script>
+    <script src="js/cards.js"></script>
+    <script src="js/faq.js"></script>
 </body>
 
 </html>
